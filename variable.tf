@@ -71,8 +71,8 @@ variable "database-instance-identifier" {
   type        = string
 }
 
-# variable "multi_az" {
-#   default = "eu-west-2"
-#   description = "multi-az deployment"
-#   type = string
-# }
+variable "multi-multi_az" {
+  default = true
+  description = "multi-az deployment"
+  type = string
+}
